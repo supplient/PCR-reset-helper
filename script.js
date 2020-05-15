@@ -10,10 +10,6 @@ function comb(n, r) {
     return factor(n) / (factor(r) * factor(n-r));
 }
 
-function unlimited(per_m) {
-    return 5/841 * 25 + 35/841 * per_m;
-}
-
 function func(N, B, M, per_b, per_m) {
     // N: 池子里东西数量的总计，最右边那列的
     // B: 池子里宝石的数量，不乘上去
