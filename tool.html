@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+    <script src="script.js"></script>
+    <style type="text/css">
+        input {display: inline;}
+        div {display: inline;}
+    </style>
+</head>
+<body>
+    <h2>主观设定：</h2>
+    每女神的秘石等于多少宝石：<input type="number" id="per_m"/> <br>
+
+    <h2>无限池设定：</h2>
+    总计：<input type="number" id="unlimit_N"/> <br>
+    宝石的组数：<input type="number" id="unlimit_B"/> <br>
+    每组宝石的数量：<input type="number" id="unlimit_per_b"/> <br>
+    女神的秘石的数量：<input type="number" id="unlimit_M"/> <br>
+
+    <h2>当前池设定：</h2>
+    总计：<input type="number" id="now_N"/> <br>
+    宝石的组数：<input type="number" id="now_B"/> <br>
+    每组宝石的数量：<input type="number" id="now_per_b"/> <br>
+    女神的秘石的数量：<input type="number" id="now_M"/> <br>
+
+    <h2>计算结果：</h2>
+    无限池的期望：<div id="unlimit_text"></div> <br>
+    当前池的期望：<div id="now_text"></div> <br>
+    建议：<div id="advice"></div> <br>
+    <button onclick="onCalBtn();">计算</button>
+</body>
+</html>
